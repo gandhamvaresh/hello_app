@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:show, :edit, :update, :destroy],except: [:list ]
+  before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   # GET /users
   # GET /users.json
@@ -62,7 +62,7 @@ class UsersController < ApplicationController
   end
 
    def list
-     @users = User.all
+     # @users = User.all
    end
 
   private
