@@ -1,11 +1,12 @@
 Rails.application.routes.draw do
+  root 'static_pages#home'
   get 'static_pages/home'
   get 'static_pages/about'
   get 'static_pages/help'
 
   resources :microposts
   resources :users
-  root 'users#index'
+  # root 'users#index'
   get 'users' =>  'users#list'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -61,4 +62,15 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  # Login	gandhamvaresh@gmail.com
+  # Password	4495e768
+
 end
+
+# answer = 0
+# for candidate in arr:
+#   answer ^= candidate
+#   return answer
+#   if __name__ == '__main__'|| arr = input()
+#   b = map(int, raw_input().strip().split(" "))
+#   print lonelyinteger(b)
