@@ -12,3 +12,5 @@
 !/log/.keep
 /tmp
 /.idea/*
+/spring/*.pid
+/Test_Ruby/*

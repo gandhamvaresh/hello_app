@@ -18,3 +18,5 @@ tree.left  = BinaryTree::Node.new(5)
 tree.right = BinaryTree::Node.new(15)
 p = tree.inspect
 tree1(p,10)
+
+
